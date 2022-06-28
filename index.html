@@ -62,7 +62,7 @@
 
     var sceneLight = new BABYLON.PointLight("sceneLight", new BABYLON.Vector3(0, 20, 20), scene);
 
-    const ground = BABYLON.MeshBuilder.CreateGroundFromHeightMap("gdhm", "https://wwiigeek.github.io/ImageAssets/MtKilimanjaro.png", {height: 1, width: 1.77, minHeight: 1, maxHeight: 8750}, scene);
+    const ground = BABYLON.MeshBuilder.CreateGroundFromHeightMap("gdhm", "MtKilimanjaro.png", {height: 1, width: 1.77, minHeight: 1, maxHeight: 8750}, scene);
     return scene;
 }
                 window.initFunction = async function() {
